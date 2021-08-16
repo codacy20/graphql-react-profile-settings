@@ -1,0 +1,17 @@
+.App-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+
+  > .inner-container {
+    display: flex;
+    height: 100%;
+    > span {
+      margin-top: 10%;
+      width: 0.2em;
+      background-color: black;
+      height: 50%;
+    }
+  }
+}
