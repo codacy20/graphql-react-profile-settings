@@ -1,10 +1,41 @@
 import React from "react";
+import { FaRegKeyboard } from "react-icons/fa";
+import { FiUpload } from "react-icons/fi";
+import { BiBell } from "react-icons/bi";
 import "./NavBar.scss";
 
 function NavBar(props: any) {
   return (
     <div className="navbar-container">
-      <span>this is nav bar</span>
+      <div id="logo">
+        <FaRegKeyboard size={35} />
+        <span>Amir.dev</span>
+      </div>
+      <div id="btns-center">
+        <div className="btn">
+          <span>Button 1</span>
+        </div>
+        <div className="btn">
+          <span>Button 1</span>
+        </div>
+        <div className="btn">
+          <span>Button 1</span>
+        </div>
+        <div className="btn">
+          <span>Button 1</span>
+        </div>
+        <div className="btn">
+          <span>Button 1</span>
+        </div>
+      </div>
+      <div id="btns-right">
+        <BiBell size={25} />
+        <div id="btn-profile"></div>
+        <div id="upload">
+          <FiUpload size={20} />
+          <span>Upload</span>
+        </div>
+      </div>
     </div>
   );
 }
