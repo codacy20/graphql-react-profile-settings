@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegKeyboard } from "react-icons/fa";
-import { FiUpload } from "react-icons/fi";
+import { FiLogIn } from "react-icons/fi";
 import { BiBell } from "react-icons/bi";
 import "./NavBar.scss";
 
@@ -32,8 +32,8 @@ function NavBar(props: any) {
         <BiBell size={25} />
         <div id="btn-profile"></div>
         <div id="upload">
-          <FiUpload size={20} />
-          <span>Upload</span>
+          <FiLogIn size={20} />
+          <span>Login</span>
         </div>
       </div>
     </div>
