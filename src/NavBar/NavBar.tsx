@@ -1,7 +1,7 @@
-import React from "react";
 import { FaRegKeyboard } from "react-icons/fa";
 import { FiLogIn } from "react-icons/fi";
 import { BiBell } from "react-icons/bi";
+import { Button } from "../Button/Button";
 import "./NavBar.scss";
 
 function NavBar(props: any) {
@@ -12,21 +12,10 @@ function NavBar(props: any) {
         <span>Amir.dev</span>
       </div>
       <div id="btns-center">
-        <div className="btn">
-          <span>Button 1</span>
-        </div>
-        <div className="btn">
-          <span>Button 1</span>
-        </div>
-        <div className="btn">
-          <span>Button 1</span>
-        </div>
-        <div className="btn">
-          <span>Button 1</span>
-        </div>
-        <div className="btn">
-          <span>Button 1</span>
-        </div>
+        <Button />
+        <Button />
+        <Button />
+        <Button />
       </div>
       <div id="btns-right">
         <BiBell size={25} />

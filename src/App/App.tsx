@@ -1,9 +1,9 @@
 import "./App.scss";
-import SideNav from "./SideNav";
-import NavBar from "./NavBar";
-import Settings from "./Settings";
+import SideNav from "../SideNav/SideNav";
+import NavBar from "../NavBar/NavBar";
+import Settings from "../Settings/Settings";
 import { useQuery } from "@apollo/client";
-import { GET_USERS } from ".";
+import { GET_USERS } from "..";
 
 function App() {
   const { loading, error, data } = useQuery(GET_USERS);

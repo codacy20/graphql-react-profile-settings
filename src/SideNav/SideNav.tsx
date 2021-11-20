@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../Button/Button";
 import "./SideNav.scss";
 
 function SideNav(props: any) {
@@ -6,12 +7,8 @@ function SideNav(props: any) {
     <div className="sidenav-container">
       <div id="wrapper">
         <span>Settings</span>
-        <div id="profile">
-          <span>Profile Settings</span>
-        </div>
-        <div id="logout">
-          <span>Logout</span>
-        </div>
+        <Button />
+        <Button />
       </div>
     </div>
   );
